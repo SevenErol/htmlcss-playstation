@@ -31,7 +31,7 @@
 }
 
 
-#ms_btn {
+#header_bottom .ms_btn {
     border-radius: 20px;
 }
 
@@ -43,3 +43,30 @@
 
 /* #endregion header  */
 
+/* #region main */
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* #region jumbotron */
+
+#ms_jumbotron {
+    background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.ms_height {
+    height: 100%;
+}
+
+#ms_jumbotron .ms_btn {
+    border-radius: 20px;
+}
+
+.fs_h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
