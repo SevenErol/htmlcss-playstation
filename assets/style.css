@@ -238,3 +238,38 @@ main {
 
 /* #endregion social media */
 
+/* #region footer */
+
+#site_footer {
+    background-color: var(--blue-bg);
+    padding: 3rem;
+}
+
+#ps_footer {
+    width: 84px;
+}
+
+#site_footer .general_margin {
+    margin-bottom: 2rem;
+}
+
+.mb_4 {
+    margin-bottom: 4rem;
+}
+
+#sony_entertainment_logo {
+    width: 144px;
+}
+
+#info_ft {
+    color: white;
+}
+
+#site_footer ul {
+    list-style-type: none;
+}
+
+#site_footer ul a {
+    text-decoration: none;
+    color: white;
+}
