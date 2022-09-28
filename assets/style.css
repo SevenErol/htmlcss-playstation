@@ -146,3 +146,21 @@ main {
 
 /* #endregion new release */
 
+/* #region explore */
+
+.ms_margin_top {
+    margin-top: 4rem;
+}
+
+.reg_mark {
+    font-size: 15px;
+    position: absolute;
+}
+
+#explore .general_margin {
+    margin-bottom: 3rem;
+}
+
+#explore .ms_btn {
+    border-radius: 20px;
+}
