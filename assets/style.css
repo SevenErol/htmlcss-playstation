@@ -6,6 +6,7 @@
     --light-dark-bg: #1F1F1F;
     --grey-bg: #BEBCBB;
     --text-blue: #00439C;
+    --gray-text: gray;
 }
 
 /* #region header */
@@ -81,3 +82,35 @@ main {
 .game_cover {
     border: 3px solid var(--text-blue);
 }
+
+/* #region playstation five */
+
+.blue_title {
+    color: var(--text-blue);
+}
+
+.grey_text {
+    color: var(--gray-text);
+}
+
+#playstation_five .general_margin {
+    margin-bottom: 2rem;
+}
+
+#playstation_five .ms_btn {
+    border-radius: 20px;
+}
+
+.ms_padding {
+    padding: 3rem;
+}
+
+.ms_border {
+    border-bottom: 2px solid var(--blue-bg);
+}
+
+/* #endregion playstation five */
+
+
+
+
