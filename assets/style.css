@@ -164,3 +164,32 @@ main {
 #explore .ms_btn {
     border-radius: 20px;
 }
+
+
+/* #endregion explore */
+
+/* #region playstation plus */
+
+#playstation_plus {
+    background-color: var(--grey-bg);
+}
+
+.play_plus_logo {
+    width: 60%;
+}
+
+#playstation_plus .ms_btn {
+    border-radius: 20px;
+}
+
+#playstation_plus .general_margin {
+    margin-bottom: 3rem;
+}
+
+#playstation_plus .blue_title {
+    color: var(--text-blue);
+    font-weight: 500;
+}
+
+/* #endregion playstation plus */
+
