@@ -201,3 +201,28 @@ main {
 
 /* #endregion discount */
 
+/* #region playstation now */
+
+#playstation_now {
+    background-color: var(--dark-blue-bg);
+}
+
+.play_now_logo {
+    width: 60%;
+}
+
+#playstation_now .ms_btn {
+    border-radius: 20px;
+}
+
+#playstation_now .general_margin {
+    margin-bottom: 3rem;
+}
+
+#playstation_now .blue_title {
+    color: var(--text-blue);
+    font-weight: 500;
+}
+
+/* #endregion playstation now */
+
