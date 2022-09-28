@@ -111,6 +111,18 @@ main {
 
 /* #endregion playstation five */
 
+/* #region it takes two */
 
 
+#takes_two {
+    background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#takes_two .ms_btn {
+    border-radius: 20px;
+}
+
+/* #endregion it takes two */
 
