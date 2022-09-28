@@ -70,3 +70,14 @@ main {
     font-size: 40px;
     font-weight: 600;
 }
+
+/* #endregion jumbotron */
+
+#my_margin {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.game_cover {
+    border: 3px solid var(--text-blue);
+}
