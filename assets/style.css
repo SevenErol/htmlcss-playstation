@@ -13,11 +13,10 @@
 
 #site_header {
     width: 100%;
-    height: 122px;
     z-index: 1000;
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
-         box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 /* #region header top */
@@ -47,6 +46,31 @@
 
 #lens {
     width: 25px;
+}
+
+#header_bottom .play_menu_icon {
+    width: 60px;
+}
+
+#header_bottom ul {
+    list-style-type: none;
+}
+
+#header_bottom ul .collapsed_link:before {
+    content: '•';
+    margin-right: 7px;
+    color: var(--text-blue);
+}
+
+#header_bottom ul .collapsed_link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#header_bottom ul .link_game:hover {
+    color: var(--text-blue);
+    transition: 0.4s;
 }
 
 /* #endregion header bottom */
@@ -285,4 +309,3 @@ main {
 }
 
 /* #endregion footer  */
-
