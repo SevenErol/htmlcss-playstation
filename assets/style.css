@@ -44,6 +44,12 @@
     border-radius: 20px;
 }
 
+#header_bottom .ms_btn:hover {
+    outline-style: solid;
+    outline-color: gray;
+    outline-offset: .1rem;
+}
+
 #lens {
     width: 25px;
 }
@@ -73,6 +79,22 @@
     transition: 0.4s;
 }
 
+.chevron_up {
+    width: 1rem;
+}
+
+.nav-link:focus .chevron_up {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+
+.nav-link:active .chevron_up {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+
 /* #endregion header bottom */
 
 /* #endregion header  */
@@ -99,6 +121,12 @@ main {
 
 #ms_jumbotron .ms_btn {
     border-radius: 20px;
+}
+
+#ms_jumbotron .ms_btn:hover {
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: .1rem;
 }
 
 .fs_h2 {
@@ -135,6 +163,12 @@ main {
     border-radius: 20px;
 }
 
+#playstation_five .ms_btn:hover {
+    outline-style: solid;
+    outline-color: var(--blue-bg);
+    outline-offset: .1rem;
+}
+
 .ms_padding {
     padding: 3rem;
 }
@@ -156,6 +190,12 @@ main {
 
 #takes_two .ms_btn {
     border-radius: 20px;
+}
+
+#takes_two .ms_btn:hover {
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: .1rem;
 }
 
 /* #endregion it takes two */
@@ -199,6 +239,12 @@ main {
     border-radius: 20px;
 }
 
+#explore .ms_btn:hover {
+    outline-style: solid;
+    outline-color: var(--blue-bg);
+    outline-offset: .1rem;
+}
+
 
 /* #endregion explore */
 
@@ -215,6 +261,13 @@ main {
 #playstation_plus .ms_btn {
     border-radius: 20px;
 }
+
+#playstation_plus .ms_btn:hover {
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: .1rem;
+ }
+
 
 #playstation_plus .general_margin {
     margin-bottom: 3rem;
@@ -247,6 +300,12 @@ main {
 
 #playstation_now .ms_btn {
     border-radius: 20px;
+}
+
+#playstation_now .ms_btn:hover {
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: .1rem;
 }
 
 #playstation_now .general_margin {
