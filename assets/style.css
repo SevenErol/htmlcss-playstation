@@ -141,8 +141,12 @@ main {
     margin-bottom: 3rem;
 }
 
-.game_cover {
-    border: 3px solid var(--text-blue);
+.game_cover:hover {
+    outline-style: solid;
+    outline-color: var(--blue-bg);
+    outline-offset: .1rem;
+    position: absolute;
+    bottom: 25%;
 }
 
 /* #region playstation five */
