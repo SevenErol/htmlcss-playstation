@@ -1,0 +1,441 @@
+:root {
+    --dark-bg: black;
+    --light-bg: white;
+    --blue-bg: #00439C;
+    --dark-blue-bg: #161C3B;
+    --light-dark-bg: #1F1F1F;
+    --grey-bg: #BEBCBB;
+    --text-blue: #00439C;
+    --gray-text: gray;
+}
+
+/* #region header */
+
+#site_header {
+    width: 100%;
+    z-index: 1000;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black;
+}
+
+/* #region header top */
+
+#header_top {
+    background-color: var(--dark-bg);
+}
+
+#sony_logo {
+    width: 84px;
+}
+
+/* #endregion header top */
+
+
+/* #region header bottom */
+
+#header_bottom {
+    background-color: var(--light-bg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#header_bottom .ms_btn {
+    border-radius: 20px;
+}
+
+#header_bottom .ms_btn:hover {
+    outline-style: solid;
+    outline-color: gray;
+    outline-offset: .1rem;
+}
+
+#lens {
+    width: 25px;
+}
+
+#header_bottom .play_menu_icon {
+    width: 60px;
+}
+
+#header_bottom ul {
+    list-style-type: none;
+}
+
+#header_bottom ul .collapsed_link:before {
+    content: '•';
+    margin-right: 7px;
+    color: var(--text-blue);
+}
+
+#header_bottom ul .collapsed_link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+#header_bottom ul .link_game:hover {
+    color: var(--text-blue);
+    transition: 0.4s;
+}
+
+.chevron_up {
+    width: 1rem;
+}
+
+.nav-link:focus .chevron_up {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+
+.nav-link:active .chevron_up {
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+
+.hidden_nav {
+    display: none;
+}
+
+.shown_nav {
+    width: 100%;
+}
+
+
+/* #endregion header bottom */
+
+/* #endregion header  */
+
+/* #region main */
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 120px;
+}
+
+/* #region jumbotron */
+
+#ms_jumbotron {
+    /* background-image: url(./img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-position:center; */
+    height: 800px;
+    position: relative;
+    margin-bottom: 10rem;
+}
+
+.carousel .carousel-item {
+    height: 800px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 800px;
+}
+
+.carousel-indicators {
+    top: 100%;
+}
+
+#ms_jumbotron .carousel-indicators button {
+    width: 150px;
+    height: auto;
+    text-indent: 0;
+}
+
+
+.ms_height {
+    height: 100%;
+}
+
+#ms_jumbotron .ms_btn {
+    border-radius: 20px;
+}
+
+#ms_jumbotron .ms_btn:hover {
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: .1rem;
+}
+
+.fs_h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* #endregion jumbotron */
+
+#my_margin {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.game_cover:hover {
+    outline-style: solid;
+    outline-color: var(--blue-bg);
+    outline-offset: .1rem;
+    position: absolute;
+    bottom: 25%;
+}
+
+/* #region playstation five */
+
+.blue_title {
+    color: var(--text-blue);
+}
+
+.grey_text {
+    color: var(--gray-text);
+}
+
+#playstation_five .general_margin {
+    margin-bottom: 2rem;
+}
+
+#playstation_five .ms_btn {
+    border-radius: 20px;
+}
+
+#playstation_five .ms_btn:hover {
+    outline-style: solid;
+    outline-color: var(--blue-bg);
+    outline-offset: .1rem;
+}
+
+.ms_padding {
+    padding: 1rem;
+}
+
+.ms_border {
+    border-bottom: 2px solid var(--blue-bg);
+}
+
+#playstation_five .ms_overlay {
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+}
+
+#playstation_five .play_item:hover .ms_overlay {
+    opacity: 0;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+
+#playstation_five .play_item:hover {
+    border-bottom: 2px solid var(--blue-bg);
+}
+
+/* #endregion playstation five */
+
+/* #region it takes two */
+
+
+#takes_two {
+    background-image: url(../assets/img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#takes_two .ms_btn {
+    border-radius: 20px;
+}
+
+#takes_two .ms_btn:hover {
+    outline-style: solid;
+    outline-color: red;
+    outline-offset: .1rem;
+}
+
+/* #endregion it takes two */
+
+/* #region new release */
+
+#new_releases {
+    background-color: var(--light-dark-bg);
+}
+
+#new_releases .general_margin {
+    margin-bottom: 2rem;
+}
+
+.fs_h6 {
+    font-size: 18px;
+}
+
+.fs_h4 {
+    font-size: 30px;
+}
+
+/* #endregion new release */
+
+/* #region explore */
+
+.ms_margin_top {
+    margin-top: 4rem;
+}
+
+.reg_mark {
+    font-size: 15px;
+    position: absolute;
+}
+
+#explore .general_margin {
+    margin-bottom: 3rem;
+}
+
+#explore .ms_btn {
+    border-radius: 20px;
+}
+
+#explore .ms_btn:hover {
+    outline-style: solid;
+    outline-color: var(--blue-bg);
+    outline-offset: .1rem;
+}
+
+
+/* #endregion explore */
+
+/* #region playstation plus */
+
+#playstation_plus {
+    background-color: var(--grey-bg);
+}
+
+.play_plus_logo {
+    width: 60%;
+}
+
+#playstation_plus .ms_btn {
+    border-radius: 20px;
+}
+
+#playstation_plus .ms_btn:hover {
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: .1rem;
+}
+
+
+#playstation_plus .general_margin {
+    margin-bottom: 3rem;
+}
+
+#playstation_plus .blue_title {
+    color: var(--text-blue);
+    font-weight: 500;
+}
+
+/* #endregion playstation plus */
+
+/* #region discount */
+
+#discount .general_margin {
+    margin-bottom: 3rem;
+}
+
+/* #endregion discount */
+
+/* #region playstation now */
+
+#playstation_now {
+    background-color: var(--dark-blue-bg);
+}
+
+.play_now_logo {
+    width: 60%;
+}
+
+#playstation_now .ms_btn {
+    border-radius: 20px;
+}
+
+#playstation_now .ms_btn:hover {
+    outline-style: solid;
+    outline-color: white;
+    outline-offset: .1rem;
+}
+
+#playstation_now .general_margin {
+    margin-bottom: 3rem;
+}
+
+#playstation_now .blue_title {
+    color: var(--text-blue);
+    font-weight: 500;
+}
+
+/* #endregion playstation now */
+
+/* #region social media */
+
+#social {
+    padding: 3rem;
+}
+
+#social .general_margin {
+    margin-bottom: 3rem;
+}
+
+/* #endregion social media */
+
+/* #region footer */
+
+#site_footer {
+    background-color: var(--blue-bg);
+    padding: 3rem;
+}
+
+#ps_footer {
+    width: 84px;
+}
+
+#site_footer .general_margin {
+    margin-bottom: 2rem;
+}
+
+.mb_4 {
+    margin-bottom: 4rem;
+}
+
+#sony_entertainment_logo {
+    width: 144px;
+}
+
+#info_ft {
+    color: white;
+}
+
+#site_footer ul {
+    list-style-type: none;
+}
+
+#site_footer ul a {
+    text-decoration: none;
+    color: white;
+}
+
+/* #endregion footer  */
+
+@media screen and (max-width: 991px) {
+    .hidden_nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .shown_nav {
+        display: none;
+    }
+}

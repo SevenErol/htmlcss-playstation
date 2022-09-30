@@ -8,7 +8,7 @@
     <title>Playstation site</title>
 
     <!-- link style css -->
-    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="style.css">
 
     <!-- link bootstrap -->
 
@@ -437,32 +437,76 @@
         <!-- section jumbotron -->
         <section id="ms_jumbotron">
 
-            <div class="container d-flex align-items-end ms_height">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 
-                <div class="row">
-
-                    <div class="col-lg-4 col-md-10 mb-3 text-white">
-                        <div class="game_name">
-                            <img src="../assets/img/returnal-hero-banner-logo.png" alt="" class="img-fluid mb-3">
-                        </div>
-                        <h2 class="sub_title mb-3 fs_h2">Rompi il cerchio</h2>
-                        <p class="py-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in
-                            questo esplosivo
-                            thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-
-                        <div>
-                            <a class="btn btn-danger ms_btn" href="#" role="button">Acquista ora</a>
-                        </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" class="d-block w-100" alt="...">
                     </div>
-
+                    <div class="carousel-item active">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" class="d-block w-100"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item active">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" class="d-block w-100" alt="...">
+                    </div>
                 </div>
 
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" alt="" class="img-fluid rounded-4">
+                    </button>
+                    <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" class="img-fluid rounded-4"
+                            alt="...">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" alt="" class="img-fluid rounded-4">
+                    </button>
+                    <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="img-fluid rounded-4">
+                    </button>
+                    <button type="button"  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" class="img-fluid rounded-4"
+                            alt="...">
+                    </button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt="" class="img-fluid rounded-4">
+                    </button>
+                </div>
             </div>
 
         </section>
 
         <!-- section games covers -->
-        <div class="container p-3">
+        <!-- <div class="container p-3">
             <div class="row" id="my_margin">
                 <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
 
@@ -514,7 +558,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
         <!-- section playstation five -->
 
@@ -557,8 +601,8 @@
                     </div>
 
                     <div class="col-4 col-sm-4 col-md play_item position-relative">
-                        <a class="btn border-0 " href="#" role="button"><img src="../assets/img/headset-thumb.png" alt=""
-                                class="img-fluid ms_padding"></a>
+                        <a class="btn border-0 " href="#" role="button"><img src="../assets/img/headset-thumb.png"
+                                alt="" class="img-fluid ms_padding"></a>
 
                         <div class="ms_overlay"></div>
                     </div>
@@ -807,7 +851,8 @@
 
                 <div class="row general_margin">
                     <div class="col-md-4 col-sm-12 mb-3">
-                        <img src="../assets/img/playstation-store-games-under-20-spotlight.jpg" alt="" class="img-fluid">
+                        <img src="../assets/img/playstation-store-games-under-20-spotlight.jpg" alt=""
+                            class="img-fluid">
                     </div>
 
                     <div class="col-md-4 col-sm-12 mb-3">
