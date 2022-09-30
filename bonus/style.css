@@ -124,6 +124,7 @@ main {
     height: 800px;
     position: relative;
     margin-bottom: 10rem;
+    width: 100%;
 }
 
 .carousel .carousel-item {
@@ -135,7 +136,7 @@ main {
     object-fit: cover;
     top: 0;
     left: 0;
-    min-height: 800px;
+    width: 100%;
 }
 
 .carousel-indicators {
@@ -144,8 +145,8 @@ main {
 
 #ms_jumbotron .carousel-indicators button {
     width: 150px;
-    height: auto;
     text-indent: 0;
+    background-color: none;
 }
 
 
