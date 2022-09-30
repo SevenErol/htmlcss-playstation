@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playstation site</title>
+
+    <!-- link style css -->
+    <link rel="stylesheet" href="../assets/style.css">
+
+    <!-- link bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header id="site_header" class="position-fixed top-0 left-0">
+
+        <!-- header top logo sony -->
+        <div id="header_top" class="d-flex justify-content-end py-2">
+            <div id="sony_logo">
+                <img src="../assets/img/sony_logo.svg" alt="">
+            </div>
+        </div>
+
+        <!-- header bottom navbar -->
+        <div id="header_bottom">
+
+            <nav class="navbar navbar-expand p-3">
+
+                <div class="container-fluid">
+
+                    <div class="shown_nav d-lg-flex">
+
+                        <div class="collapse navbar-collapse">
+
+                            <ul class="navbar-nav align-items-center">
+
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="../assets/img/play_logo.svg" alt="">
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="#multiCollapseExample1" role="button"
+                                        data-bs-toggle="collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample1">
+                                        Giochi
+
+                                        <img src="../assets/img/chevron-down-solid.svg" alt=""
+                                            class="img-fluid chevron_up">
+                                    </a>
+
+
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="#multiCollapseExample2" role="button"
+                                        data-bs-toggle="collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample2">
+                                        Hardware
+
+                                        <img src="../assets/img/chevron-down-solid.svg" alt=""
+                                            class="img-fluid chevron_up">
+                                    </a>
+
+
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="#multiCollapseExample3" role="button"
+                                        data-bs-toggle="collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample3">
+                                        Servizi
+
+                                        <img src="../assets/img/chevron-down-solid.svg" alt=""
+                                            class="img-fluid chevron_up">
+                                    </a>
+
+
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="#multiCollapseExample4" role="button"
+                                        data-bs-toggle="collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample4">
+                                        Novità
+
+                                        <img src="../assets/img/chevron-down-solid.svg" alt=""
+                                            class="img-fluid chevron_up">
+                                    </a>
+
+
+
+                                </li>
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="#multiCollapseExample5" role="button"
+                                        data-bs-toggle="collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample5">
+                                        Fai acquisti
+
+                                        <img src="../assets/img/chevron-down-solid.svg" alt=""
+                                            class="img-fluid chevron_up">
+                                    </a>
+
+                                </li>
+
+
+
+                                <li class="nav-item">
+
+                                    <a class="nav-link" href="#multiCollapseExample6" role="button"
+                                        data-bs-toggle="collapse" aria-expanded="false"
+                                        aria-controls="multiCollapseExample6">
+                                        Supporto
+
+                                        <img src="../assets/img/chevron-down-solid.svg" alt=""
+                                            class="img-fluid chevron_up">
+                                    </a>
+
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+
+                        <div class="collapse navbar-collapse">
+
+                            <ul class="navbar-nav ms-auto align-items-center">
+
+                                <li class="nav-item dropdown px-2">
+
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        My PlayStation
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item px-2">
+                                    <div class="ms_grey_border">
+                                        <a class="btn btn-secondary ms_btn" href="#" role="button">Accedi</a>
+                                    </div>
+
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a class="nav-link active" href="#">
+                                        <img src="../assets/img/lens.svg" alt="" id="lens">
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="hidden_nav">
+
+                        <div class="collapse navbar-collapse">
+
+                            <ul class="navbar-nav align-items-center">
+
+                                <li class="nav-item">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="../assets/img/play_logo.svg" alt="">
+                                    </a>
+                                </li>
+
+                        </div>
+
+                        <div class="collapse navbar-collapse">
+
+                            <ul class="navbar-nav ms-auto align-items-center">
+
+                                <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-bars"></i></a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <!-- navbar ridotta responsive -->
+
+
+
+
+
+            </nav>
+
+            <!-- collapsed menus -->
+
+            <div class="collapse multi-collapse text-center" id="multiCollapseExample1">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 5</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 4</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 3</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <ul class="d-flex justify-content-center">
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Giochi</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Giochi</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Giochi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse text-center" id="multiCollapseExample2">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 5</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 4</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 3</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <ul class="d-flex justify-content-center">
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Hardware</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Hardware</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Hardware</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse text-center" id="multiCollapseExample3">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 5</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 4</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 3</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <ul class="d-flex justify-content-center">
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Servizi</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Servizi</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Servizi</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse text-center" id="multiCollapseExample4">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 5</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 4</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 3</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <ul class="d-flex justify-content-center">
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Novità</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Novità</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Novità</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse text-center" id="multiCollapseExample5">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 5</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 4</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 3</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <ul class="d-flex justify-content-center">
+                            <li class="col-2 collapsed_link"><a href="#" class="link_game">Link Fai acquisti</a></li>
+                            <li class="col-2 collapsed_link"><a href="#" class="link_game">Link Fai acquisti</a></li>
+                            <li class="col-2 collapsed_link"><a href="#" class="link_game">Link Fai acquisti</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapse multi-collapse text-center" id="multiCollapseExample6">
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 5</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 4</p>
+                        </div>
+
+                        <div class="col-1 text-center">
+                            <a href="#"><img src="../assets/img/play-menu-ico.png" alt=""
+                                    class="img-fluid play_menu_icon"></a>
+                            <p>Playstation 3</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <ul class="d-flex justify-content-center">
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Supporto</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Supporto</a></li>
+                            <li class="col-1 collapsed_link"><a href="#" class="link_game">Link Supporto</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main id="site_main">
+
+        <!-- section jumbotron -->
+        <section id="ms_jumbotron">
+
+            <div class="container d-flex align-items-end ms_height">
+
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-10 mb-3 text-white">
+                        <div class="game_name">
+                            <img src="../assets/img/returnal-hero-banner-logo.png" alt="" class="img-fluid mb-3">
+                        </div>
+                        <h2 class="sub_title mb-3 fs_h2">Rompi il cerchio</h2>
+                        <p class="py-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in
+                            questo esplosivo
+                            thriller fantascientifico, disponibile in esclusiva su PS5.</p>
+
+                        <div>
+                            <a class="btn btn-danger ms_btn" href="#" role="button">Acquista ora</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- section games covers -->
+        <div class="container p-3">
+            <div class="row" id="my_margin">
+                <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
+
+                    <div class="game_cover rounded-4">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" alt=""
+                            class="img-fluid rounded-4 p-1">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
+
+                    <div class="game_cover rounded-4">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""
+                            class="img-fluid rounded-4 p-1">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
+
+                    <div class="game_cover rounded-4">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" alt=""
+                            class="img-fluid rounded-4 p-1">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
+
+                    <div class="game_cover rounded-4">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""
+                            class="img-fluid rounded-4 p-1">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
+
+                    <div class="game_cover rounded-4">
+                        <img src="../assets/img/returnal-listing-thumb-01-ps5.jpg" alt=""
+                            class="img-fluid rounded-4 p-1">
+                    </div>
+
+                </div>
+                <div class="col-lg-2 col-sm-4 col-6 gy-sm-3 position-relative">
+
+                    <div class="game_cover rounded-4">
+                        <img src="../assets/img/ratchet-and-clank-rift-apart-keyart.jpg" alt=""
+                            class="img-fluid rounded-4 p-1">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- section playstation five -->
+
+        <section id="playstation_five">
+            <div class="container">
+                <div class="no_limits text-center">
+                    <h6 class="blue_title text-uppercase"><strong>play has no limits</strong></h6>
+                    <h2 class="fs_h2 general_margin">Ecco la playstation 5</h2>
+                    <p class="grey_text">Tuffati in nuove possibilità di gioco completamente inaspettate.
+                    </p>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-sm-6 col-12">
+                        <h2>Console playstation 5</h2>
+                        <p class="grey_text">Sperimenta la nuova generazione di giochi PlayStation.</p>
+                        <div class="more_info">
+                            <a class="btn btn-primary ms_btn" href="#" role="button">Maggiori informazioni</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12">
+                        <img src="../assets/img/playstation-5-thumb.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <!-- row for other options -->
+                <div class="row row-cols-5 g-2 g-lg-3 mb-3">
+
+                    <div class="col-4 col-sm-4 col-md ms_border">
+                        <a class="btn active border-0" href="#" role="button"><img
+                                src="../assets/img/playstation-5-thumb.png" alt="" class="img-fluid ms_padding"></a>
+                    </div>
+
+                    <div class="col-4 col-sm-4 col-md play_item position-relative">
+                        <a class="btn border-0" href="#" role="button"><img src="../assets/img/joypad-thumb.png" alt=""
+                                class="img-fluid ms_padding"></a>
+
+
+                        <div class="ms_overlay"></div>
+                    </div>
+
+                    <div class="col-4 col-sm-4 col-md play_item position-relative">
+                        <a class="btn border-0 " href="#" role="button"><img src="../assets/img/headset-thumb.png" alt=""
+                                class="img-fluid ms_padding"></a>
+
+                        <div class="ms_overlay"></div>
+                    </div>
+
+                    <div class="col-4 col-sm-4 col-md play_item position-relative">
+                        <a class="btn border-0" href="#" role="button"><img src="../assets/img/remote-thumb.png" alt=""
+                                class="img-fluid ms_padding"></a>
+
+                        <div class="ms_overlay"></div>
+                    </div>
+
+                    <div class="col-4 col-sm-4 col-md play_item position-relative">
+                        <a class="btn border-0" href="#" role="button"><img src="../assets/img/camera-thumb.jpg" alt=""
+                                class="img-fluid ms_padding"></a>
+
+                        <div class="ms_overlay"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- section banner it takes two -->
+
+        <section id="takes_two" class="text-white">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-lg-3 col-sm-8 col-8 mt-3 py-3">
+                        <img src="../assets/img/it-takes-two-logo.png" alt="" class="img-fluid">
+                        <h3 class="my-3">Un'avventura cooperativa selvaggia ti attende!</h3>
+                        <p>Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two,
+                            un gioco di avventura cooperativa a piattaforme che stravolge il suo genere.</p>
+                        <a class="btn btn-danger ms_btn" href="#" role="button">Acquista ora</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- new release section -->
+        <section id="new_releases" class="text-white p-3">
+            <div class="container">
+                <h4 class="general_margin fs_h4">Nuove uscite</h4>
+                <h6 class="general_margin fs_h6">Giochi incredibili per PS4 e PS5 disponibili ora</h6>
+
+                <div class="row gy-4">
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Tony Hawk's &#8482; Pro</p>
+                        <p>Skater &#8482; 1 + 2</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Crash Bandicoot 4: It's About Time</p>
+
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Tony Hawk's &#8482; Pro</p>
+                        <p>Skater &#8482; 1 + 2</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Crash Bandicoot 4: It's About Time</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Tony Hawk's &#8482; Pro</p>
+                        <p>Skater &#8482; 1 + 2</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Crash Bandicoot 4: It's About Time</p>
+
+                    </div>
+
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Tony Hawk's &#8482; Pro</p>
+                        <p>Skater &#8482; 1 + 2</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Crash Bandicoot 4: It's About Time</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Tony Hawk's &#8482; Pro</p>
+                        <p>Skater &#8482; 1 + 2</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Crash Bandicoot 4: It's About Time</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/tony-hawks-pro-skater-1-2-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Tony Hawk's &#8482; Pro</p>
+                        <p>Skater &#8482; 1 + 2</p>
+
+                    </div>
+                    <div class="col-lg-2 col-sm-4 col-6">
+
+                        <div class="rounded-4">
+                            <img src="../assets/img/crash-bandicoot-4-its-about-time-store-art.jpg" alt=""
+                                class="img-fluid rounded-4 p-1">
+                        </div>
+
+                        <p class="m-0">Crash Bandicoot 4: It's About Time</p>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- explore section -->
+        <section id="explore">
+            <div class="container">
+                <div class="explore_ps4 text-center ms_margin_top general_margin">
+                    <h2>Esplora Playstation<span class="reg_mark">&reg;</span> 4</h2>
+                    <p class="grey_text m-0 mt-3">Giochi incredibili intrattenimento senza fine.</p>
+                    <p class="grey_text">Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
+                </div>
+
+                <div class="row general_margin">
+                    <div class="col-md-4 col-sm-12">
+                        <img src="../assets/img/ps4-slim-homepage-image-block.jpg" alt="" class="img-fluid">
+                        <h2>Playstation 4</h2>
+                        <p>Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
+                        <a class="btn btn-primary ms_btn" href="#" role="button">Scopri di più</a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <img src="../assets/img/double11-202010-tw-psvr.jpg" alt="" class="img-fluid">
+                        <h2>Playstation VR</h2>
+                        <p>Oltre 500 titoli ed esperienze di gioco. <br> Scoprili tutti.</p>
+                        <a class="btn btn-primary ms_btn" href="#" role="button">Scopri di più</a>
+                    </div>
+
+                    <div class="col-md-4 col-sm-12">
+                        <img src="../assets/img/dualshock-4-listing-thumb.jpg" alt="" class="img-fluid">
+                        <h2>Accessori</h2>
+                        <p>Migliora la tua esperienza con PS4 con una gamma di accessori ufficiali.</p>
+                        <a class="btn btn-primary ms_btn" href="#" role="button">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- playstation plus section -->
+        <section id="playstation_plus" class="general_margin">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="play_plus_logo general_margin">
+                            <img src="../assets/img/ps-plus-logo.png" alt="" class="img-fluid mt-1">
+                        </div>
+                        <p class="general_margin">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore
+                            online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                        <div class="mb-1">
+                            <a class="btn btn-light ms_btn blue_title" href="#" role="button">Esplora playstation
+                                plus</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-md-block d-none">
+                        <img src="../assets/img/ps-plus-april-monthly-games-featured-image-block.png" alt=""
+                            class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- discount section -->
+
+        <section id="discount">
+            <div class="container">
+                <div class="explore_ps4 text-center ms_margin_top general_margin">
+                    <h2>Nuovi sconti su PlayStation store</h2>
+                    <p class="grey_text m-0 mt-3">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e
+                        PS VR, tutti in un unico posto.</p>
+                </div>
+
+                <div class="row general_margin">
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <img src="../assets/img/playstation-store-games-under-20-spotlight.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <img src="../assets/img/playstation-store-golden-week-sale-spotlight.jpg" alt=""
+                            class="img-fluid">
+                    </div>
+
+                    <div class="col-md-4 col-sm-12 mb-3">
+                        <img src="../assets/img/playstation-store-free-to-play-spotlight.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- playstation now section -->
+        <section id="playstation_now">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="play_now_logo general_margin mt-1">
+                            <img src="../assets/img/ps-now-logo-two-column.png" alt="" class="img-fluid">
+                        </div>
+                        <p class="general_margin text-white">Ottieni l'accesso immediato ad una vastissima raccolta di
+                            oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni
+                            mese.</p>
+                        <div class="mb-1">
+                            <a class="btn btn-light ms_btn blue_title" href="#" role="button">Esplora playstation
+                                Now</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-md-block d-none">
+                        <img src="../assets/img/ps-now-april-featured-image-block.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sociale media section -->
+        <section id="social">
+            <div class="container text-center">
+                <h3 class="general_margin">Seguici sui social media</h3>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-1 col-sm-3 col-6 mb-3">
+                        <img src="../assets/img/twitter.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-lg-1 col-sm-3 col-6 mb-3">
+                        <img src="../assets/img/facebook.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-lg-1 col-sm-3 col-6 mb-3">
+                        <img src="../assets/img/instagram.jpg" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="col-lg-1 col-sm-3 col-6 mb-3">
+                        <img src="../assets/img/youtube.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="site_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+
+                    <div class="play_logo_white general_margin">
+                        <img src="../assets/img/ps-footer.svg" alt="" id="ps_footer">
+                    </div>
+
+                    <div class="country text-white d-flex align-items-baseline mb_4">
+                        <i class="fa-solid fa-globe me-3"></i>
+                        <p>Country / Region: Italy</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <ul>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <ul>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-4 col-sm-12">
+                            <ul>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                                <li class="py-1"><a href="#">Link footer n</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="website_disclaimer">
+                        <div class="sony_entertainment">
+                            <img src="../assets/img/sie-logo.svg" alt="" id="sony_entertainment_logo" class="mb-3">
+                        </div>
+
+                        <p class="text-white">Website &copy;2021 Sony Interactive Entertainment Europe Limited. Tutti i
+                            contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati,
+                            grafica e immagini associati marchi registarti e/o materiale protetto da copyright dei
+                            rispettivi proprietari. Tutti i diritti riservati. <a href="#" id="info_ft">Maggiori
+                                Info</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- script for bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
