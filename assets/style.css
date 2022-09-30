@@ -94,6 +94,14 @@
     transition: 0.5s;
 }
 
+.hidden_nav {
+    display: none;
+}
+
+.shown_nav {
+    width: 100%;
+}
+
 
 /* #endregion header bottom */
 
@@ -112,6 +120,7 @@ main {
     background-image: url(./img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position:center;
     height: 600px;
 }
 
@@ -174,7 +183,7 @@ main {
 }
 
 .ms_padding {
-    padding: 3rem;
+    padding: 1rem;
 }
 
 .ms_border {
@@ -210,6 +219,7 @@ main {
     background-image: url(./img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #takes_two .ms_btn {
@@ -392,3 +402,14 @@ main {
 }
 
 /* #endregion footer  */
+
+@media screen and (max-width: 991px) {
+    .hidden_nav {
+        display: flex;
+        width: 100%;
+    }
+
+    .shown_nav {
+        display: none;
+    }
+}
